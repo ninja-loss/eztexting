@@ -1,5 +1,5 @@
 Carrier Lookup Account Issues
-The Eztexting service has a slight caveat for usage of the carrier lookup command. Unfortunately the account system is setup so that 
+The Ez Texting service has a slight caveat for usage of the carrier lookup command. Unfortunately the account system is setup so that 
 you must have one account for the Carrier lookup API command and another for all other commands. To use this gem with respect to this
 issue you need to swap the accounts (calling the Eztexting.connect! method) when using the carrier lookup command and then swap 
 if back to your account for the rest of the API when you use those commands
