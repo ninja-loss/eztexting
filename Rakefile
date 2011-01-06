@@ -3,8 +3,8 @@ require 'rake'
 require 'echoe'  
 require 'yard'
   
-Echoe.new('eztexting', '0.3.3') do |p|  
-  p.description     = "A Gem to make using eztexting simple and fun"  
+Echoe.new('eztexting', '0.3.4') do |p|  
+  p.description     = "A Gem to make using EZ Texting simple and fun"  
   p.url             = "http://github.com/EzTexting/eztexting"  
   p.author          = "David Malin"  
   p.email           = "dmalin@eztexting.com"  
